@@ -3,7 +3,7 @@
 templist="playlist.m3u8"
 list="tv.m3u8"
 
-set -x
+# set -x
 curl http://cdn.ultra-tv.online:3289/$templist?token=knuro195 --output $templist
 
 echo "" > $list
@@ -22,8 +22,8 @@ cat $templist | head -n 1  >> $list
 
 filtration "USA" 'Nick|Cart|Disn'
 filtration "Россия" 'Москва 24|Пятница!$|Россия 24|Первый Канал$|Россия 2'
-filtration "Документальные" 'HGTV'
-filtration "Детские" "Baby TV"
+filtration "Документальные" 'HGTV|English Club'
+filtration "Детские" "Baby TV|Карусель"
 filtration "Serbia"
 
 

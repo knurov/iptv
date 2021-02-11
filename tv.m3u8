@@ -1,4 +1,3 @@
-
 #EXTM3U url-tvg="https://epg.iptvx.one/epg.xml.gz" cache=500 deinterlace=1 aspect-ratio=4:3 croppadd=10x10 tvg-shift=0
 #EXTINF:-1 group-title="USA",[US] Cartoon Network
 http://cdn.ultra-tv.online:3289/play/a22n?token=knuro195
@@ -30,18 +29,22 @@ http://cdn.ultra-tv.online:3289/play/a31e?token=knuro195
 http://cdn.ultra-tv.online:3289/play/a31p?token=knuro195
 #EXTINF:-1 group-title="Россия", Россия 24
 http://cdn.ultra-tv.online:3289/play/a2wm?token=knuro195
+#EXTINF:-1 group-title="Документальные", English Club
+http://cdn.ultra-tv.online:3289/play/a29y?token=knuro195
+#EXTINF:-1 group-title="Документальные", English Club HD
+http://cdn.ultra-tv.online:3289/play/a29z?token=knuro195
 #EXTINF:-1 group-title="Документальные", HGTV
 http://cdn.ultra-tv.online:3289/play/a2an?token=knuro195
 #EXTINF:-1 group-title="Документальные", HGTV HD
 http://cdn.ultra-tv.online:3289/play/a2ao?token=knuro195
 #EXTINF:-1 group-title="Детские", Baby TV
 http://cdn.ultra-tv.online:3289/play/a27d?token=knuro195
+#EXTINF:-1 group-title="Детские", Карусель
+http://cdn.ultra-tv.online:3289/play/a28h?token=knuro195
 #EXTINF:-1 group-title="Serbia",[RS] Alfa
 http://cdn.ultra-tv.online:3289/play/a1h6?token=knuro195
 #EXTINF:-1 group-title="Serbia",[RS] B92
 http://cdn.ultra-tv.online:3289/play/a1h7?token=knuro195
-#EXTINF:-1 group-title="Serbia",[RS] BN
-http://cdn.ultra-tv.online:3289/play/a1h8?token=knuro195
 #EXTINF:-1 group-title="Serbia",[RS] Happy
 http://cdn.ultra-tv.online:3289/play/a1h9?token=knuro195
 #EXTINF:-1 group-title="Serbia",[RS] Hayat
