@@ -4,7 +4,7 @@ templist="playlist.m3u8"
 list="tv.m3u8"
 
 # set -x
-curl http://cdn.ultra-tv.online:3289/$templist?token=knuro195 --output $templist
+curl http://play.ultra-tv.online:3289/playlist.m3u8?token=knuro146 --output $templist
 
 echo "" > $list
 
