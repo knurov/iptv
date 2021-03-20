@@ -21,10 +21,9 @@ cat $templist | head -n 1  >> $list
 
 
 filtration "USA" 'Nick|Cart|Disn'
-filtration "Россия" 'Москва 24|Пятница!$|Россия 24|Первый Канал$|Россия 2'
+filtration "Россия" 'Москва 24|Пятница!$|Пятница$|Россия 24|Первый Канал$|Россия 2|ТНТ$|НТВ$|СТС$'
 filtration "Документальные" 'HGTV|English Club'
 filtration "Детские" "Baby TV|Карусель"
-filtration "Serbia"
-
+# filtration "Serbia"
 
 rm $templist
